@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        <meta charset="utf-8" />
+    </head>
+    <body class="flex">
+        <img src="../images/logo.png"/>
+        <div class="container flex">
+            <div class="imgcontainer"></div>
+            <div class="caption"></div>
+            <div class="rating">
+                <img id="star1" src="../images/greyStar.png"/>
+                <img id="star2" src="../images/greyStar.png"/>
+                <img id="star3" src="../images/greyStar.png"/>
+                <img id="star4" src="../images/greyStar.png"/>
+                <img id="star5" src="../images/greyStar.png"/>
+            </div>
+            <div class="avgRating"></div>
+            <button class="knapp"><img src="../images/shuffle.png" alt="random image"/></button>
+            <div class="containerActions">
+            <form id="formet">
+                <label>Enter your caption here, please</label>
+                <input type="text" name="caption">
+                <button type="submit" class="submitCaption"><img src="../images/plane.png" alt="submit"/></button>
+            </form>
+               <button id="showForm">Or can you do better</button>
+             <form id="formen">
+                <input type="hidden" name="id" value="123" readonly="readonly">
+                Submit image: <input name="fileToUpload" type="file" /><br />
+                <input type="submit" value="Submit">
+            </form>
+            <button id="goBack">HOME</button>
+        </div>
+        </div>
+        <script
+          src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous">
+        </script>
+        <script src="../javascript/script.js"></script>
+    </body>
+</html>
+

@@ -1,0 +1,138 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px;
+    background-image: url(../images/background.jpg);
+    color: aliceblue;
+}
+
+.pek{
+    margin: 0px;
+}
+
+.flex {
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 10px;
+    width: 90%;
+}
+
+
+.imgcontainer {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 100%;
+}
+
+.caption {
+    width: 90vw;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    vertical-align: bottom;
+}
+
+.knapp{
+    background: transparent;
+    border: 0px;
+}
+
+.submitCaption{
+    background: transparent;
+    border: 0px;
+}
+
+.submitImage{
+    background: transparent;
+    border: 0px;
+}
+
+#showForm{
+    width: 40vw;
+    height: 5vh;
+    background-color: black;
+    color: ghostwhite;
+    border-radius: 20px;
+    border-color: skyblue;
+}
+
+.knapp:hover {
+    cursor:pointer;
+}
+
+.submitCaption:hover {
+    cursor:pointer;
+}
+
+.submitImage:hover {
+    cursor:pointer;
+}
+
+#star1:hover, #star2:hover, #star3:hover, #star4:hover, #star5:hover {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
+
+img{
+    margin: 10px;
+}
+
+p{
+    margin: 0px;
+    text-align: center;
+}
+
+#formen{
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    display: none;
+        margin-top: 5vh;
+}
+
+#formet{
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    
+}
+
+form{
+    display: none;
+}
+
+.rating{
+    height: 5vh;
+    margin: 0px;
+}
+
+.avgRating{
+    width: 90vw;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#goBack{
+    margin-top: 2vh;
+    display: none;
+    width: 40vw;
+    height: 5vh;
+    background-color: black;
+    color: ghostwhite;
+    border-radius: 20px;
+    border-color: skyblue;
+}
